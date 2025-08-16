@@ -9,11 +9,11 @@ const fs = require("fs")
 require('dotenv').config(); 
 
 //================= { SETTINGS } =================\\
-global.owner = process.env.OWNER_NUMBER || "234"; // owner number 
+global.owner = process.env.OWNER_NUMBER || "226"; // owner number 
 global.botimg = 'https://files.catbox.moe/l9gpzm.jpg'
 global.sudo = process.env.SUDO  || " ";
-global.ownername = process.env.OWNER_NAME || "Richie";
-global.botname = process.env.BOT_NAME || "AKANE"
+global.ownername = process.env.OWNER_NAME || "AZIZ DAMIBA";
+global.botname = process.env.BOT_NAME || "Walifuku"
 global.onlypc = process.env.ONLYPC_MSG  || "Sorry buddy the bot won't work directly in group chat to reduce spam use in private chat";
 global.onlygc = process.env.ONLYGC_MSG  || "Sorry buddy the bot won't work directly in private chat to reduce spam use in group";
 global.session = process.env.SESSION_ID || ""
@@ -22,16 +22,16 @@ global.timezone = process.env.TIME_ZONE || "Africa/Lagos";
 
 //======= Don't touch =======\\
 global.msg = {
-    succes: 'Success',
-    owner: 'This feature could be used by owner only',
-	admin: 'This feature could be used by group admin only',
+    succes: 'Succès du seigneur walifuku 🐦‍🔥',
+    owner: 'cettte operation ne peut être effectuée que par le seigneur DZIGUEN (Aziz Damiba)',
+	admin: 'cette opération est dédiée aux administrateurs uniquement',
 	BotAdmin: 'This feature could be used when the bot is an admin only',
     group: 'Features Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature could be used by bot only',
     wait: 'processing...',
-    linkm: 'Where is the link?',
-    ban: 'Sorry you have been banned 🚶from using command contact owner to unban ❌'
+    linkm: 'où est le lien ?',
+    ban: 'Sorry vous avez été banni 🚶par une utilisation de ma commande contacter le créateur pour être réintégré ou en savoir plus 🐦‍🔥 ❌'
     }
  // cpanel Richie
  global.egg = "15"
@@ -40,7 +40,7 @@ global.loc = "1"
 global.domain = "add_domaim_url"
 global.apikey = "add_api_key"
 global.capikey = "add_capikey"
-global.creatorName = "Richie"
+global.creatorName = "Aziz"
 
 //==========================
     
